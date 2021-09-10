@@ -14,7 +14,19 @@ const routes: Routes = [
   {
     path: 'ani1',
     loadChildren: () => import('./pages/ani1/ani1.module').then( m => m.Ani1PageModule)
+  },  {
+    path: 'ani2',
+    loadChildren: () => import('./pages/ani2/ani2.module').then( m => m.Ani2PageModule)
   },
+  {
+    path: 'ani3',
+    loadChildren: () => import('./pages/ani3/ani3.module').then( m => m.Ani3PageModule)
+  },
+  {
+    path: 'ani4',
+    loadChildren: () => import('./pages/ani4/ani4.module').then( m => m.Ani4PageModule)
+  },
+
 ];
 
 @NgModule({
