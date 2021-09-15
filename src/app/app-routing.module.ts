@@ -26,6 +26,14 @@ const routes: Routes = [
     path: 'ani4',
     loadChildren: () => import('./pages/ani4/ani4.module').then( m => m.Ani4PageModule)
   },
+  {
+    path: 'codigo-qr',
+    loadChildren: () => import('./pages/codigo-qr/codigo-qr.module').then( m => m.CodigoQRPageModule)
+  },
+  {
+    path: 'tabs',
+    loadChildren: () => import('./pages/tabs/tabs.module').then( m => m.TabsPageModule)
+  },
 
 ];
 
